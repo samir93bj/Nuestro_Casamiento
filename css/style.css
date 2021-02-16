@@ -1412,7 +1412,15 @@ form label {
 
 /*MAP*/
 
-#mapa{
+.mapa{
+  display:flex;
+  flex-basis: unset;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/*#mapa{
   padding-bottom: 50px !important;
   align-items: center !important;
 }
@@ -1431,10 +1439,20 @@ form label {
 @media screen and (max-width: 768px) {
   #mapa p{
     font-size: 15px;
-
+  }
+  #mapa iframe{
+    width: 100; 
+    height: 200;
   }
 }
 
+@media screen and (max-width: 480px) {
+  #mapa iframe{
+    width: 300; 
+    height: 200;
+  }
+}
+*/
 /*FOOTER */ 
 
 @media screen and (max-width: 768px) {
