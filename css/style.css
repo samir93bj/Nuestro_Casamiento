@@ -1414,10 +1414,19 @@ form label {
 
 .mapa{
   display:flex;
-  flex-basis: unset;
   align-items: center;
   flex-direction: column;
   margin-bottom: 20px;
+}
+
+.mapa-p{
+  width: 100%;
+  text-align: center;
+}
+
+.mapa-iframe{
+  align-items: center;
+  width: 100%;
 }
 
 /*#mapa{
