@@ -1468,11 +1468,18 @@ form label {
   #fh5co-footer{
     background-color: black;
     padding-top: 1em;
+    padding-top: 20px !important;
+
   }
 
+  #fh5co-footer .container h4{
+      padding-top: 20px !important;
+    }
+}
+
 @media screen and (max-width: 480px) {
-  #fh5co-footer h4{
-      padding-top: 20px
+  #fh5co-footer .container h4{
+      padding-top: 20px !important;
     }
 }
 
@@ -1480,7 +1487,9 @@ form label {
     font-family: "Sacramento", Arial, serif;
     font-size: 30px;
     color: white;
+    padding-top: 20px !important;
   }
+
   /*
   #fh5co-footer .copyright .pull-left,
   #fh5co-footer .copyright .pull-right {
