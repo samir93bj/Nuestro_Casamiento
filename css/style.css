@@ -1470,10 +1470,15 @@ form label {
     padding-top: 1em;
   }
 
+@media screen and (max-width: 480px) {
+  #fh5co-footer h4{
+      padding-top: 20px
+    }
+}
+
   #fh5co-footer .container h4{
     font-family: "Sacramento", Arial, serif;
     font-size: 30px;
-    text-align: center;
     color: white;
   }
   /*
